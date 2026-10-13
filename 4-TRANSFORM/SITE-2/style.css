@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   perspective: 1000px;
+}
+
+div{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+
+    transform: rotatex(90deg);
+}

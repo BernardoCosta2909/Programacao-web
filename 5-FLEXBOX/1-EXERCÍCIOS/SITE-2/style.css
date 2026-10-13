@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+.header-total{
+    background-color: darkgreen;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 0 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.logo{
+    justify-content: flex-start;
+
+}
+
+.user-info{
+    justify-content: flex-end;
+}
+
+
+.conteudo-central{
+    display: flex;
+    background-color: rgb(2, 2, 2);
+    flex: 1;
+}
+
+.coluna-esquerda{
+    background-color: darkgray;
+    width: 20%;
+}
+
+.coluna-esquerda h3{
+    margin: 35px;
+}
+
+.coluna-esquerda ul{
+    margin: 10px;
+    list-style: none ;
+}
+
+.coluna-esquerda li{
+    margin: 25px;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1 );
+    cursor: pointer;
+}
+
+.coluna-esquerda li:hover{
+ background-color: grey;
+    padding-left: 18px;
+}
+
+.coluna-direita{
+    margin: 40px;
+}
+
+.card-exemplo{
+    margin: 40px;
+    background-color: darkgreen;
+    border: solid darkgreen;
+    text-align: center;
+    padding: 100px;
+    width: 1000px;
+    border-radius: 15% ;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1 );
+    cursor: pointer;
+}
+
+.card-exemplo:hover{
+  transform: translateY(-4px);
+    background-color: grey;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.footer-total{
+    height: 50px;
+    background-color: darkgreen;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    font-weight: 600;
+    font-size: 0.8rem;
+    z-index: 10;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+}

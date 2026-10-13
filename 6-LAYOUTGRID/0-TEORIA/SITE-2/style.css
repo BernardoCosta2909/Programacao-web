@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.tabuleiro-xadrez {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  border: 4px solid #333;
+  width: max-content;
+}
+
+/* Propriedades comuns para todas as casas */
+.casa {
+  width: 100%;
+  height: 100%;
+}
+
+/* Classes específicas para o padrão alternado */
+.clara {
+  background-color: #f0d9b5;
+  /* Bege */
+}
+
+.escura {
+  background-color: #b58863;
+  /* Castanho */
+}
+
+/* --- EFEITO HOVER --- */
+
+/* Hover para a casa clara (fica levemente mais escura/acinzentada) */
+.clara:hover {
+  background-color: #e2c699;
+}
+
+/* Hover para a casa escura (fica levemente mais escura/intensa) */
+.escura:hover {
+  background-color: #9c6f4a;
+}

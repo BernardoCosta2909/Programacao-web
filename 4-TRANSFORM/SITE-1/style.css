@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+ position: absolute;
+ top: 200px;
+ left: 100px;
+
+ width: 200px;
+ height: 200px;
+ background-color: gold;
+
+ transform: translate(50px, 100px)
+ rotate(20deg)
+ scaleX(2)
+ scaleY(2)
+ skewX(15deg)
+ skewY(15deg);
+ /* ainda temos o elemento "matrix ()"   */
+}

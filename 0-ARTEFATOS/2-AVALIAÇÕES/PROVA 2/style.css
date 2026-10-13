@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#topo-esq {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 200px greenyellow;
+
+    border: solid green;
+    transition: rotate 3s;
+}
+
+#topo-esq:hover {
+    rotate: 45deg;
+}
+
+#topo-dir {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 200px lightskyblue;
+
+    border: solid blue;
+    transition: rotate 3s;
+}
+
+#topo-dir:hover {
+    rotate: 45deg;
+}
+
+#baixo-esq {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 200px palevioletred;
+
+    border: solid purple;
+    transition: rotate 3s;
+}
+
+#baixo-esq:hover {
+    rotate: 45deg;
+}
+
+#baixo-dir {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 200px lightsalmon;
+
+    border: solid orange;
+    transition: rotate 3s;
+}
+
+#baixo-dir:hover {
+    rotate: 45deg;
+}
+
+#centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 200px lightgoldenrodyellow;
+
+    border: solid gold;
+    transition: border-radius 2s, width 2s, height 2s, background-color 2s, transition 2s, border-color 2s, box-shadow 2s, transform 2s ;
+}
+
+#centro:hover {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    transition: 5s;
+    border-color: yellow;
+    box-shadow: 0 0 90px yellow;
+    transform: translate(-50%, -50%) rotate(360deg);
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: darkblue;
+}
+
+.lua{
+ position: absolute;
+ bottom: 5%;
+ left: 50%;
+ transform: translate(-50%, -5%);
+ border-radius: 50%;
+ box-shadow: 0 0 500PX gainsboro;
+ width: 200px;
+ height: 200px;
+ background-color: white;
+ transition: width 3s, height 3s, background-color 5s;
+}
+
+.lua:hover{
+    width: 400px;
+    height:400px;
+    background-color: whitesmoke;
+}
+
+.sol{
+ position: absolute;
+ top: 25%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ border-radius: 50%;
+ box-shadow: 0 0 500PX yellow;
+ width: 200px;
+ height: 200px;
+ background-color: white;
+ transition: width 3s, height 3s, background-color 5s;
+}
+
+.sol:hover{
+    width: 400px;
+    height:400px;
+    background-color: gold;
+}
+
+h2{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

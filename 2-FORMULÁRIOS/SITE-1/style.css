@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 10px;
+}

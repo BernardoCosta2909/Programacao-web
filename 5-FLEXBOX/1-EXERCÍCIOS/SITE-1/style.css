@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.flex-container{
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-content: center;
+ border-radius: 10px;
+ border: dashed, whitesmoke;
+ background-color: gainsboro;
+ margin: 20px;
+ padding: 20px;
+ height: 90vh;
+ gap: 15px;
+}
+
+.items{
+    padding: 80px;
+    margin: 5px;
+    border-radius: 10px;
+    background: linear-gradient(lightgreen, darkgreen, lightgreen);
+    transition: 1s;
+}
+.items:hover{
+    transform: scale(1.2, 1.2);
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.jogo-da-velha {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    background-color: #000;
+    border: 5px solid #000;
+    width: max-content;
+}
+
+.casa {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.casa:hover {
+    background-color: red;
+}
